@@ -4,9 +4,9 @@ import numpy as np
 import joblib
 
 # --- 1. Load the Saved Model Pipeline ---
-# We load the pipeline object we created and saved in the previous step.
-# This pipeline includes scaling, PCA, and the final tuned Logistic Regression model.
-pipeline = joblib.load('../saved_models/credit_risk_pipeline.joblib')
+# CORRECTED: Use a simpler relative path.
+# This tells the script to look for the model in the main project root directory.
+pipeline = joblib.load('../credit_risk_pipeline.joblib')
 
 # Add a title and a short description
 st.title("🛡️ CreditGuard AI")
@@ -164,4 +164,3 @@ if st.button('**Predict Risk**', type="primary"):
     else:
         st.success('**Conclusion: Low Risk**', icon="✅")
         st.write(f"The model has identified this applicant as having a low risk of default. The probability of successful repayment is **{prediction_proba[0][0]*100:.2f}%**.")
-

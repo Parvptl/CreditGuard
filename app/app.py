@@ -6,7 +6,7 @@ import joblib
 # --- 1. Load the Saved Model Pipeline ---
 # We load the pipeline object we created and saved in the previous step.
 # This pipeline includes scaling, PCA, and the final tuned Logistic Regression model.
-pipeline = joblib.load('D:\PROJECTS\CreditGuard\saved_models\credit_risk_pipeline.joblib')
+pipeline = joblib.load('../saved_models/credit_risk_pipeline.joblib')
 
 # Add a title and a short description
 st.title("🛡️ CreditGuard AI")

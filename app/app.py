@@ -6,7 +6,7 @@ import joblib
 # --- 1. Load the Saved Model Pipeline ---
 # CORRECTED: Use a simpler relative path.
 # This tells the script to look for the model in the main project root directory.
-pipeline = joblib.load('../credit_risk_pipeline.joblib')
+pipeline = joblib.load('D:\PROJECTS\CreditGuard\credit_risk_pipeline.joblib')
 
 # Add a title and a short description
 st.title("🛡️ CreditGuard AI")

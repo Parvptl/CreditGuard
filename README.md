@@ -229,36 +229,7 @@ seaborn>=0.11.0
 joblib>=1.0.0
 ```
 
----
 
-## 📁 **Project Structure**
-
-```
-CreditGuard/
-│
-├── app.py                              # Streamlit web application
-├── credit_risk_pipeline.joblib         # Trained model pipeline
-├── requirements.txt                    # Python dependencies
-├── README.md                          # Project documentation
-│
-├── data/
-│   ├── heloc_dataset_v1.csv           # Original HELOC dataset (10,459 records)
-│   └── heloc_dataset_processed.csv    # Cleaned and preprocessed data
-│
-├── notebooks/
-│   ├── 01_data_preprocessing.ipynb    # Data cleaning and EDA
-│   └── 02_model_training.ipynb        # Model development and evaluation
-│
-├── saved_models/
-│   └── credit_risk_pipeline.joblib    # Production model pipeline
-│
-├── docs/
-│   ├── technical_decisions.md         # Detailed technical explanations
-│   ├── model_card.md                  # Model documentation
-│   └── images/                        # Screenshots and visualizations
-│
-└── .gitignore                         # Git ignore rules
-```
 
 ---
 
@@ -715,7 +686,5 @@ Explore my other data science and ML projects:
 [Report Bug](https://github.com/Parvptl/CreditGuard/issues) · [Request Feature](https://github.com/Parvptl/CreditGuard/issues) · [View Demo](https://creditguardai.streamlit.app/)
 
 ---
-
-**Last Updated**: January 2025 | **Status**: Production-Ready ✅
 
 </div>

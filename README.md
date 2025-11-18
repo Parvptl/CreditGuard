@@ -620,7 +620,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 **Parv Patel**  
 Data Science & AI/ML Engineering Student @ IIT Palakkad
 
-- 🌐 **Portfolio**: [parvpatel.dev](https://parvpatel.dev)
+- 🌐 **Portfolio**: [parvpatel.dev](https://parvpatel.me)
 - 💼 **LinkedIn**: [linkedin.com/in/parvptl](https://linkedin.com/in/parvptl)
 - 🐙 **GitHub**: [github.com/Parvptl](https://github.com/Parvptl)
 - 📧 **Email**: parv4careers@gmail.com
